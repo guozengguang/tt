@@ -1,0 +1,64 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: st-user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.107.186.198:3306/ttblog?characterEncoding=UTF8
+    username: root
+    password: 123456
+    hikari:
+      max-lifetime: 0
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: false
+  redis:
+    host: 47.107.186.198
+  rabbitmq:
+    host: 47.107.186.198
+  mvc:
+    static-path-pattern: /static/**
+  jwt:
+    config:
+      key: stsdd
+      ttl: 3600000
+  devtools:
+    restart:
+      enabled: true
+aliyun:
+  sms:
+    accessKeyId: LTAISJk9h4pKQqcT
+    accessKeySecret: re81nu3CxeezsdWukkFofJU3OPwGTo
+    template_code: SMS_154587993
+    sign_name: 涛涛大神
+
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.mp: DEBUG
+    me.chanjar.weixin: DEBUG
+wx:
+  mp:
+    configs:
+      - appId: wx4d2a0dcea5e64d9d #（一个公众号的appid）
+        secret: 68599416bb4939c6b7f6f1f9a44dfcde #（公众号的appsecret）
+        token: tttt #（接口配置里的Token值）
+st:
+  weixin:
+    registration:
+       code:
+       ###微信注册码消息
+        message:  您的注册码为:%s，请关注<a href="www.stsdd.com">TT的技术博客</a>，欢迎观看95后架构师施涛的技术分享。Java萌新交流群：<a href='https://jq.qq.com/?_wv=1027&k=5eYjtqo'>614648533</a>，期待你的加入，感谢！
+    ###默认提示消息
+    default:
+      registration:
+        code:
+          message: 自动回复暂时无法使用！！！
+
+
+
+
+
+
