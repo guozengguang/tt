@@ -162,11 +162,10 @@ h2{
 	border-radius: 3px;
 }
 .send_code{
-	width: 200px;
+	width: 100px;
 	box-shadow: none;
 	border:0;
 	line-height: 45px;
-	display: block;
 	color: #fff;
 	background-color: #0f88eb;
 

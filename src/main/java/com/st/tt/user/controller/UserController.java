@@ -1,29 +1,17 @@
 package com.st.tt.user.controller;
 
 
-import com.alibaba.fastjson.JSONObject;
-import com.st.tt.user.base.BaseResponse;
-import com.st.tt.user.base.BaseWebController;
-import com.st.tt.user.controller.req.vo.RegisterVo;
-import com.st.tt.user.dto.input.dto.UserInpDTO;
+
 import com.st.tt.user.entity.Result;
 import com.st.tt.user.entity.StatusCode;
 import com.st.tt.user.listener.MyHttpSessionListener;
 import com.st.tt.user.service.UserService;
-import com.st.tt.user.service.impl.WeiXInRegisterServiceImpl;
-import com.st.tt.user.utils.RandomValidateCodeUtil;
-import com.st.tt.user.utils.bean.MeiteBeanUtils;
-import com.st.tt.user.utils.bean.STBeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpSessionEvent;
+
 
 
 /**

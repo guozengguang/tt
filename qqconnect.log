@@ -1,6 +1,10 @@
-5880 DEBUG [2019-05-04 13:40:21]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
-5880 DEBUG [2019-05-04 13:40:21]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
-5880 ERROR [2019-05-04 13:40:21]  Error executing FreeMarker template
+142680 DEBUG [2019-05-31 14:39:54]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+142681 DEBUG [2019-05-31 14:39:54]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+142682 DEBUG [2019-05-31 14:39:54]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+142684 DEBUG [2019-05-31 14:39:54]  TemplateLoader.findTemplateSource("error.ftl"): Found
+142685 DEBUG [2019-05-31 14:39:54]  Loading template for "error.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\error.ftl"
+142700 DEBUG [2019-05-31 14:39:54]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+142708 ERROR [2019-05-31 14:39:54]  Error executing FreeMarker template
 FreeMarker template error:
 The following has evaluated to null or missing:
 ==> Request["error"]  [in template "error.ftl" at line 1, column 3]
@@ -98,9 +102,33 @@ freemarker.core.InvalidReferenceException: [... Exception message was already pr
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-5893 DEBUG [2019-05-04 13:40:21]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
-5894 DEBUG [2019-05-04 13:40:21]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
-5894 ERROR [2019-05-04 13:40:21]  Error executing FreeMarker template
+204311 DEBUG [2019-05-31 14:40:56]  TemplateLoader.findTemplateSource("register_zh_CN.ftl"): Not found
+204361 DEBUG [2019-05-31 14:40:56]  TemplateLoader.findTemplateSource("register_zh.ftl"): Not found
+204362 DEBUG [2019-05-31 14:40:56]  TemplateLoader.findTemplateSource("register.ftl"): Found
+204362 DEBUG [2019-05-31 14:40:56]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1559284791691 != source.lastModified=1559284851850
+204362 DEBUG [2019-05-31 14:40:56]  Loading template for "register.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\register.ftl"
+204377 DEBUG [2019-05-31 14:40:56]  "register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+225144 DEBUG [2019-05-31 14:41:17]  TemplateLoader.findTemplateSource("register_zh_CN.ftl"): Not found
+225144 DEBUG [2019-05-31 14:41:17]  TemplateLoader.findTemplateSource("register_zh.ftl"): Not found
+225146 DEBUG [2019-05-31 14:41:17]  TemplateLoader.findTemplateSource("register.ftl"): Found
+225147 DEBUG [2019-05-31 14:41:17]  "register.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\register.ftl hasn't changed.
+225150 DEBUG [2019-05-31 14:41:17]  "register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+251454 DEBUG [2019-05-31 14:41:43]  TemplateLoader.findTemplateSource("register_zh_CN.ftl"): Not found
+251456 DEBUG [2019-05-31 14:41:43]  TemplateLoader.findTemplateSource("register_zh.ftl"): Not found
+251458 DEBUG [2019-05-31 14:41:43]  TemplateLoader.findTemplateSource("register.ftl"): Found
+251458 DEBUG [2019-05-31 14:41:43]  "register.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\register.ftl hasn't changed.
+251459 DEBUG [2019-05-31 14:41:43]  "register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+342418 DEBUG [2019-05-31 14:43:14]  TemplateLoader.findTemplateSource("register_zh_CN.ftl"): Not found
+342419 DEBUG [2019-05-31 14:43:14]  TemplateLoader.findTemplateSource("register_zh.ftl"): Not found
+342419 DEBUG [2019-05-31 14:43:14]  TemplateLoader.findTemplateSource("register.ftl"): Found
+342420 DEBUG [2019-05-31 14:43:14]  "register.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\register.ftl hasn't changed.
+342421 DEBUG [2019-05-31 14:43:14]  "register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+342976 DEBUG [2019-05-31 14:43:14]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+342977 DEBUG [2019-05-31 14:43:14]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+342978 DEBUG [2019-05-31 14:43:14]  TemplateLoader.findTemplateSource("error.ftl"): Found
+342979 DEBUG [2019-05-31 14:43:14]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\error.ftl hasn't changed.
+342980 DEBUG [2019-05-31 14:43:14]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+342981 ERROR [2019-05-31 14:43:14]  Error executing FreeMarker template
 FreeMarker template error:
 The following has evaluated to null or missing:
 ==> Request["error"]  [in template "error.ftl" at line 1, column 3]
@@ -198,45 +226,24 @@ freemarker.core.InvalidReferenceException: [... Exception message was already pr
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-13754 DEBUG [2019-05-04 13:40:29]  Couldn't find template in cache for "homepage.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-13755 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("homepage_zh_CN.ftl"): Not found
-13755 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("homepage_zh.ftl"): Not found
-13756 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("homepage.ftl"): Found
-13756 DEBUG [2019-05-04 13:40:29]  Loading template for "homepage.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\homepage.ftl"
-13847 DEBUG [2019-05-04 13:40:29]  "homepage.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
-13849 DEBUG [2019-05-04 13:40:29]  Couldn't find template in cache for "header.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-13849 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("header_zh_CN.ftl"): Not found
-13850 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("header_zh.ftl"): Not found
-13850 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("header.ftl"): Found
-13850 DEBUG [2019-05-04 13:40:29]  Loading template for "header.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\header.ftl"
-14156 DEBUG [2019-05-04 13:40:29]  Couldn't find template in cache for "footer.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-14157 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("footer_zh_CN.ftl"): Not found
-14157 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("footer_zh.ftl"): Not found
-14157 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("footer.ftl"): Found
-14157 DEBUG [2019-05-04 13:40:29]  Loading template for "footer.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\footer.ftl"
-14158 DEBUG [2019-05-04 13:40:29]  Couldn't find template in cache for "side.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-14158 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("side_zh_CN.ftl"): Not found
-14159 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("side_zh.ftl"): Not found
-14159 DEBUG [2019-05-04 13:40:29]  TemplateLoader.findTemplateSource("side.ftl"): Found
-14159 DEBUG [2019-05-04 13:40:29]  Loading template for "side.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\side.ftl"
-0    DEBUG [2019-05-04 16:06:43]  Couldn't find template in cache for "homepage.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-36   DEBUG [2019-05-04 16:06:43]  TemplateLoader.findTemplateSource("homepage_zh_CN.ftl"): Not found
-38   DEBUG [2019-05-04 16:06:43]  TemplateLoader.findTemplateSource("homepage_zh.ftl"): Not found
-40   DEBUG [2019-05-04 16:06:43]  TemplateLoader.findTemplateSource("homepage.ftl"): Found
-40   DEBUG [2019-05-04 16:06:43]  Loading template for "homepage.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\homepage.ftl"
-226  DEBUG [2019-05-04 16:06:43]  "homepage.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
-257  DEBUG [2019-05-04 16:06:43]  Couldn't find template in cache for "header.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-267  DEBUG [2019-05-04 16:06:43]  TemplateLoader.findTemplateSource("header_zh_CN.ftl"): Not found
-268  DEBUG [2019-05-04 16:06:43]  TemplateLoader.findTemplateSource("header_zh.ftl"): Not found
-268  DEBUG [2019-05-04 16:06:43]  TemplateLoader.findTemplateSource("header.ftl"): Found
-268  DEBUG [2019-05-04 16:06:43]  Loading template for "header.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\header.ftl"
-549  DEBUG [2019-05-04 16:06:44]  Couldn't find template in cache for "footer.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-550  DEBUG [2019-05-04 16:06:44]  TemplateLoader.findTemplateSource("footer_zh_CN.ftl"): Not found
-550  DEBUG [2019-05-04 16:06:44]  TemplateLoader.findTemplateSource("footer_zh.ftl"): Not found
-551  DEBUG [2019-05-04 16:06:44]  TemplateLoader.findTemplateSource("footer.ftl"): Found
-551  DEBUG [2019-05-04 16:06:44]  Loading template for "footer.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\footer.ftl"
-552  DEBUG [2019-05-04 16:06:44]  Couldn't find template in cache for "side.ftl"("zh_CN", UTF-8, parsed); will try to load it.
-553  DEBUG [2019-05-04 16:06:44]  TemplateLoader.findTemplateSource("side_zh_CN.ftl"): Not found
-553  DEBUG [2019-05-04 16:06:44]  TemplateLoader.findTemplateSource("side_zh.ftl"): Not found
-554  DEBUG [2019-05-04 16:06:44]  TemplateLoader.findTemplateSource("side.ftl"): Found
-554  DEBUG [2019-05-04 16:06:44]  Loading template for "side.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\side.ftl"
+347575 DEBUG [2019-05-31 14:43:19]  Couldn't find template in cache for "weixin/reg.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+347576 DEBUG [2019-05-31 14:43:19]  TemplateLoader.findTemplateSource("weixin/reg_zh_CN.ftl"): Not found
+347576 DEBUG [2019-05-31 14:43:19]  TemplateLoader.findTemplateSource("weixin/reg_zh.ftl"): Not found
+347577 DEBUG [2019-05-31 14:43:19]  TemplateLoader.findTemplateSource("weixin/reg.ftl"): Found
+347577 DEBUG [2019-05-31 14:43:19]  Loading template for "weixin/reg.ftl"("zh_CN", UTF-8, parsed) from "F:\\Java\\blog\\target\\classes\\templates\\weixin\\reg.ftl"
+347610 DEBUG [2019-05-31 14:43:19]  "weixin/reg.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+350537 DEBUG [2019-05-31 14:43:22]  TemplateLoader.findTemplateSource("register_zh_CN.ftl"): Not found
+350537 DEBUG [2019-05-31 14:43:22]  TemplateLoader.findTemplateSource("register_zh.ftl"): Not found
+350538 DEBUG [2019-05-31 14:43:22]  TemplateLoader.findTemplateSource("register.ftl"): Found
+350538 DEBUG [2019-05-31 14:43:22]  "register.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\register.ftl hasn't changed.
+350538 DEBUG [2019-05-31 14:43:22]  "register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+361100 DEBUG [2019-05-31 14:43:33]  TemplateLoader.findTemplateSource("register_zh_CN.ftl"): Not found
+361100 DEBUG [2019-05-31 14:43:33]  TemplateLoader.findTemplateSource("register_zh.ftl"): Not found
+361101 DEBUG [2019-05-31 14:43:33]  TemplateLoader.findTemplateSource("register.ftl"): Found
+361101 DEBUG [2019-05-31 14:43:33]  "register.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\register.ftl hasn't changed.
+361101 DEBUG [2019-05-31 14:43:33]  "register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+362340 DEBUG [2019-05-31 14:43:34]  TemplateLoader.findTemplateSource("weixin/reg_zh_CN.ftl"): Not found
+362340 DEBUG [2019-05-31 14:43:34]  TemplateLoader.findTemplateSource("weixin/reg_zh.ftl"): Not found
+362341 DEBUG [2019-05-31 14:43:34]  TemplateLoader.findTemplateSource("weixin/reg.ftl"): Found
+362341 DEBUG [2019-05-31 14:43:34]  "weixin/reg.ftl"("zh_CN", UTF-8, parsed): using cached since F:\Java\blog\target\classes\templates\weixin\reg.ftl hasn't changed.
+362342 DEBUG [2019-05-31 14:43:34]  "weixin/reg.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
